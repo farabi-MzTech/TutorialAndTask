@@ -66,5 +66,24 @@
 // let myNumber = [1, 2,3,4,5,6]
 // console.log(myNumber);
 
-// let Myname="farabi";
-// Myname[1];
+// let myNumber = [1, 2,3,4,5,6];
+// console.log(myNumber);
+
+// let myNumber = [1, 2,3,4,5,6];
+// let position= myNumber.indexOf(3);
+// console.log(position);
+
+
+// let myName="farabi";
+// myName
+
+// var myName ="farabi";
+// var myAge = "20";
+// console.log("My name is",myName,"and my age:",myAge,);
+
+// let a=10, b=20, c=30;
+// console.log(a,b,c);
+
+// let word="earth";
+// let pi=3.12; 
+// console.log(typeof pi);
