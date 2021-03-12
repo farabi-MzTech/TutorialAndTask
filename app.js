@@ -87,3 +87,42 @@
 // let word="earth";
 // let pi=3.12; 
 // console.log(typeof pi);
+
+
+// let x;
+// let y=5;
+
+// x=y;
+// y=y+1;
+// console.log("x=",x,"y=",y);
+
+// x+=4;
+// x-=2;
+// x*=3;
+// x/=4;
+
+// let n = 7;
+
+// if(n<20){
+//     console.log(n);
+//     console.log(n,"is smaller than 20");
+// }
+// else{
+//     console.log(n,"is greater than 20");
+
+// }
+
+// let personOne="Farabi";
+// let personTwo="Arash";
+// let areTheyBrother=true;
+
+// if("Farabi"==personOne){
+//     if("Arash"==personTwo){
+//         if(areTheyBrother){
+//             console.log("Farabi and Arash are brother");
+            
+//         }else{
+//             console.log("They are not brother");
+//         }
+//     }
+// }
