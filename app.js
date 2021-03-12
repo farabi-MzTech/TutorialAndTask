@@ -23,7 +23,7 @@
 // console.log(`${myName} ${wish.length}`);
 // console.log(`${myName} ${myName.length}`);
 
-let myName = "   HelloW Farabi!  ";
-let method = myName .trim() .toUpperCase();
-console.log(method);
+// let myName = "   HelloW Farabi!  ";
+// let method = myName .trim() .toUpperCase();
+// console.log(method);
 
