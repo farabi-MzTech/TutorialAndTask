@@ -126,3 +126,124 @@
 //         }
 //     }
 // }
+
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--------------Sect5ion 21-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// function collectEgg (){
+//     let totalPart= 10;
+    
+
+// }
+// console.log(collectEgg);
+
+// let totalPart=12;
+// function collectEgg (){
+//     let totalPart= 10;
+//     return totalPart;
+//    }
+// console.log(totalPart);
+// collectEgg();
+// console.log(totalPart);
+
+// function rescueMe(){
+//     let msg="rescue me !! I am in the sea!!!!!"
+//     msg;
+// }
+
+
+
+
+// >>>>>>>>that means msg is scoped in function rescueMe. msg is not available out side of function .
+
+// let bird= 'Koel'
+
+// function birdWatch(){
+//     let bird='parrot'
+//     console.log(bird);
+// }
+// console.log(bird);
+
+// birdWatch();
+// that is main example of scoped variable to remember-->>>>
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   BLOCK SCOPE   -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// mainly block scope means the functionalities of a variable in a function and in a block such as conditional.if we declare some variable in a condition with let the the variable will be scoped into the condition which we can not access the variable out side of the condition . also not any part of code .but if we use var for declaring variable in condition then we can access the variable outside of our condition .but we should not use the var for declaring variable.
+
+
+// let radious=0;
+// if (radious>0){
+//     const PI=3.1416;
+//     let msg='hello'
+// }
+
+// now the variable msg is scoped and cant be accessed if wee write
+
+// console.log(msg);
+
+// but can be accessed if we write 
+
+// let radious=0;
+// if (radious>0){
+//     const PI=3.1416;
+//     var msg='hello'
+// }
+
+// now the variable msg is not scoped and can be accessed if wee write
+
+// console.log(msg);
+
+// that is the fact of block scope 
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   LEXICAL SCOPE   -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 22-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 23-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 24-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 25-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 26-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 27-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 28-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 29-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 30-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 31-------------->>>>>>>>>>>>>>>>>>>>>>
