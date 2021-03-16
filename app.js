@@ -122,7 +122,7 @@
 //             console.log("Farabi and Arash are brother");
             
 //         }else{
-//             console.log("They are not brother");
+//             console.log("They are not rother");
 //         }
 //     }
 // }
