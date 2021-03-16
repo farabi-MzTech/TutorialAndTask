@@ -212,6 +212,10 @@
 
 
 
+// In short this is a formula of nesting fungtion inside of a function .
+// so that we ca access the inner function tthrough outer function.
+
+
  
 
 
