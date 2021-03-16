@@ -122,7 +122,43 @@
 //             console.log("Farabi and Arash are brother");
             
 //         }else{
-//             console.log("They are not rother");
+//             console.log("They are not brother");
 //         }
 //     }
 // }
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 21-------------->>>>>>>>>>>>>>>>>>>>>>
+// function collectEgg (){
+//     let totalPart= 10;
+    
+
+// }
+// console.log(collectEgg);
+
+// let totalPart=12;
+// function collectEgg (){
+//     let totalPart= 10;
+//     return totalPart;
+//    }
+// console.log(totalPart);
+// collectEgg();
+// console.log(totalPart);
+
+// function rescueMe(){
+//     let msg="rescue me !! I am in the sea!!!!!"
+//     msg;
+// }
+
+// >>>>>>>>that means msg is scooped in function rescueMe. msg is not available out side of function .
+
+// let bird= 'Koel'
+
+// function birdWatch(){
+//     let bird='parrot'
+//     console.log(bird);
+// }
+// console.log(bird);
+
+// birdWatch();
+// that is main example of scooped variable to remember------------->>>>>>>>>>>
