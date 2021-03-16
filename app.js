@@ -226,7 +226,7 @@
 // }
 
 
-//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  FUNCTION eXPRESSION  -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  FUNCTION EXPRESSION  -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
     // this is all about how to write a function and what is the structure of writing a function and put the value of function in a variable.here i write a function not named and put the value of function or return of the function in the variable called square.
     
@@ -243,6 +243,18 @@
     // square;
 
     // these two do the same functionalities but the writing sequence is different.thats instanceof.
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------- HIGHER ORDER FUNCTION  -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// function that operate on/with other functions. 
+// they can :
+// --accept other function as arguments
+// --return a function 
+
 
 
 
