@@ -213,10 +213,27 @@
 
 
 // In short this is a formula of nesting fungtion inside of a function .
-// so that we ca access the inner function tthrough outer function.
+// so that we can access the inner function through outer function.
+
+// function outer (){
+//     let hero ="Harry Potter";
+
+//     function inner(){
+//         let seekHelp = `${hero}, help us!`
+//         console.log(seekHelp);
+//     }
+//     inner();
+// }
 
 
- 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  FUNCTION eXPRESSION  -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+    // this is all about how to write a function and what is the structure of writing a function and put the value of function in a variable.here i write a function named myNumber and put the value of function or return of the function in the variable called square.
+    
+    const square = function myNumber(num){
+        return num*num;
+    }
+    square(7);
 
 
 
@@ -231,6 +248,7 @@
 
 
 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 22-------------->>>>>>>>>>>>>>>>>>>>>>
 
