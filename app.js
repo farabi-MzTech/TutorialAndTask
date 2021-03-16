@@ -130,7 +130,7 @@
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 21-------------->>>>>>>>>>>>>>>>>>>>>>
 
-// >>>>>>>>>>>>>>>>>> ---scoop---<<<<<<<<<<<<<<<<<
+// >>>>>>>>>>>>>>>>>> ---scope---<<<<<<<<<<<<<<<<<
 // function collectEgg (){
 //     let totalPart= 10;
     
@@ -155,7 +155,7 @@
 
 
 
-// >>>>>>>>that means msg is scooped in function rescueMe. msg is not available out side of function .
+// >>>>>>>>that means msg is scoped in function rescueMe. msg is not available out side of function .
 
 // let bird= 'Koel'
 
@@ -166,12 +166,52 @@
 // console.log(bird);
 
 // birdWatch();
-// that is main example of scooped variable to remember-->>>>
+// that is main example of scoped variable to remember-->>>>
 
 
 // >>>>>>>>>>>>>>>>>> ---block scope---<<<<<<<<<<<<<<<<<
 
- 
+
+// mainly block scope means the functionalities of a variable in a function and in a block such as conditional.if we declare some variable in a condition with let the the variable will be scoped into the condition which we can not access out side of the condition .not any part of code .but if we use var for declaring variable in condition then we can access the variable outside of our condition .but we should not use the var for declaring variable.
+
+
+let radious=0;
+if (radious>0){
+    const PI=3.1416;
+    let msg='hello'
+}
+
+// now the variable msg is scoped and cant be accessed if wee write
+
+console.log(msg);
+
+// but can be accessed if we write 
+
+let radious=0;
+if (radious>0){
+    const PI=3.1416;
+    var msg='hello'
+}
+
+// now the variable msg is not scoped and can be accessed if wee write
+
+console.log(msg);
+
+// that is the fact of block scope 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // >>>>>>>>>>>>>>>>>> ---Lesson---<<<<<<<<<<<<<<<<<
 
