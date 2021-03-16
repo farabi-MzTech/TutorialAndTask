@@ -128,9 +128,10 @@
 // }
 
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 21-------------->>>>>>>>>>>>>>>>>>>>>>
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--------------Sect5ion 21-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-// >>>>>>>>>>>>>>>>>> ---scope---<<<<<<<<<<<<<<<<<
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 // function collectEgg (){
 //     let totalPart= 10;
     
@@ -169,36 +170,42 @@
 // that is main example of scoped variable to remember-->>>>
 
 
-// >>>>>>>>>>>>>>>>>> ---block scope---<<<<<<<<<<<<<<<<<
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   BLOCK SCOPE   -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
-// mainly block scope means the functionalities of a variable in a function and in a block such as conditional.if we declare some variable in a condition with let the the variable will be scoped into the condition which we can not access out side of the condition .not any part of code .but if we use var for declaring variable in condition then we can access the variable outside of our condition .but we should not use the var for declaring variable.
+
+// mainly block scope means the functionalities of a variable in a function and in a block such as conditional.if we declare some variable in a condition with let the the variable will be scoped into the condition which we can not access the variable out side of the condition . also not any part of code .but if we use var for declaring variable in condition then we can access the variable outside of our condition .but we should not use the var for declaring variable.
 
 
-let radious=0;
-if (radious>0){
-    const PI=3.1416;
-    let msg='hello'
-}
+// let radious=0;
+// if (radious>0){
+//     const PI=3.1416;
+//     let msg='hello'
+// }
 
 // now the variable msg is scoped and cant be accessed if wee write
 
-console.log(msg);
+// console.log(msg);
 
 // but can be accessed if we write 
 
-let radious=0;
-if (radious>0){
-    const PI=3.1416;
-    var msg='hello'
-}
+// let radious=0;
+// if (radious>0){
+//     const PI=3.1416;
+//     var msg='hello'
+// }
 
 // now the variable msg is not scoped and can be accessed if wee write
 
-console.log(msg);
+// console.log(msg);
 
 // that is the fact of block scope 
 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   LEXICAL SCOPE   -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+ 
 
 
 
@@ -210,20 +217,6 @@ console.log(msg);
 
 
 
-
-
-
-// >>>>>>>>>>>>>>>>>> ---Lesson---<<<<<<<<<<<<<<<<<
-
-// >>>>>>>>>>>>>>>>>> ---Lesson---<<<<<<<<<<<<<<<<<
-
-// >>>>>>>>>>>>>>>>>> ---Lesson---<<<<<<<<<<<<<<<<<
-
-// >>>>>>>>>>>>>>>>>> ---Lesson---<<<<<<<<<<<<<<<<<
-
-// >>>>>>>>>>>>>>>>>> ---Lesson---<<<<<<<<<<<<<<<<<
-
-// >>>>>>>>>>>>>>>>>> ---Lesson---<<<<<<<<<<<<<<<<<
 
 
 
