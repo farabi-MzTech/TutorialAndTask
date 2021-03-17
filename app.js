@@ -297,6 +297,73 @@
 
 
 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   TRY/CATCH     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// According to MDN try/catch statement marks a block of statements to try and specifies a response should an exception be thrown.
+
+// According to w3School
+// The try statement allows to define a block of code to be tested for errors while it is being executed.
+
+// The catch statement allows to define a block of code to be executed if an error occurs in the try block.
+
+// The finally statement lets  execute code after try and catch regardless of the result.
+
+// The try statement lets you test a block of code for errors.
+
+// The catch statement lets you handle the error.
+
+// The throw statement lets you create custom errors.
+
+// The finally statement lets you execute code, after try and catch, regardless of the result.
+
+
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--------------Sect5ion 22-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   FOR/EACH     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// According to MDN The forEach() method executes a provided function once for each array element.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+// According to w3School
+// The forEach() method calls a function once for each element in an array, in order
+
+// Syntax
+// arr.forEach(callback(currentValue[, index[, array]]) {
+//   // execute something
+// }[, thisArg]);
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   MAP METHOD     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+// According to MDN 
+// The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+
+
+// According to w3School
+// The map() method creates a new array with the results of calling a function for every array element.
+
+// The map() method calls the provided function once for each element in an array, in order.
+
+// Note: map() does not execute the function for array elements without values.
+
+// Note: this method does not change the original array.
+
+// https://www.w3schools.com/jsref/jsref_map.asp
+
+
 
 
 
@@ -313,7 +380,10 @@
 
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 22-------------->>>>>>>>>>>>>>>>>>>>>>
+// According to MDN 
+
+
+// According to w3School
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 23-------------->>>>>>>>>>>>>>>>>>>>>>
 
