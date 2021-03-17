@@ -128,7 +128,7 @@
 // }
 
 
-// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--------------Sect5ion 21-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--------------Section 21-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
@@ -182,8 +182,8 @@
 // mainly block scope means the functionalities of a variable in a function and in a block such as conditional.if we declare some variable in a condition with let the the variable will be scoped into the condition which we can not access the variable out side of the condition . also not any part of code .but if we use var for declaring variable in condition then we can access the variable outside of our condition .but we should not use the var for declaring variable.
 
 
-// let radious=0;
-// if (radious>0){
+// let radius=0;
+// if (radius>0){
 //     const PI=3.1416;
 //     let msg='hello'
 // }
@@ -194,8 +194,8 @@
 
 // but can be accessed if we write 
 
-// let radious=0;
-// if (radious>0){
+// let radius=0;
+// if (radius>0){
 //     const PI=3.1416;
 //     var msg='hello'
 // }
@@ -212,7 +212,7 @@
 
 
 
-// In short this is a formula of nesting fungtion inside of a function .
+// In short this is a formula of nesting function inside of a function .
 // so that we can access the inner function through outer function.
 
 // function outer (){
@@ -254,6 +254,52 @@
 // they can :
 // --accept other function as arguments
 // --return a function 
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------- RETURN FUNCTION  -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// return function ends the function execution and specifies a value to be returned to the function caller
+
+// syntax is -- return [expression];
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------- DEFINING METHOD  -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+//In w3School -- javascript method are action that can be performed on object.A javascript method is a property containing function definition.
+
+// In MDN its a short hand for a function assigned to the method name.
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------- KEYWORD THIS  -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// KEYWORD "this" defined in w3 school by that 
+
+// due to w3 school "this" have different value based on where it is used
+
+// In a method this refers to the owner Object
+// Alone, this refers to the global object
+// in a function,"this" refers to the global object
+// in a function, in strict mode this is underfined
+// in a Event,this refers to the element that recieved the event
+// methods like call () and apply () can refers to any object
+
+// According to MDN a function this keyword behaves a little differently in Javasrcipt compared to other languages.
+// it also has some different between strict mode and non-strict mode.
+
+
+
+
+
+
 
 
 
