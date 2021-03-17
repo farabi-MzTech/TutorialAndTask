@@ -619,13 +619,279 @@
 
 
 
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 24-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Document Object Model (DOM)  -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. In this guide, we'll briefly introduce the DOM. We'll look at how the DOM represents an HTML or XML document in memory and how you use APIs to create web content and applications.
+// https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+
+
+// According to w3School
+// When a web page is loaded, the browser creates a Document Object Model of the page.
+
+// The HTML DOM model is constructed as a tree of Objects:
+// https://www.w3schools.com/js/js_htmldom.asp
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Document Object   -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. Usually it refers to JavaScript, even though modeling HTML, SVG, or XML documents as objects are not part of the core JavaScript language.
+
+// The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. With them, you can change the document's structure, style, or content.
+
+// Nodes can also have event handlers attached to them. Once an event is triggered, the event handlers get executed.
+// https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+
+
+
+// According to w3School
+
+// When an HTML document is loaded into a web browser, it becomes a document object.
+
+// The document object is the root node of the HTML document.
+// https://www.w3schools.com/jsref/dom_obj_document.asp
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   getElementById     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// The Document method getElementById() returns an Element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're a useful way to get access to a specific element quickly.
+
+// If you need to get access to an element which doesn't have an ID, you can use querySelector() to find the element using any selector.
+
+// Syntax
+// var element = document.getElementById(id);
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+
+// According to w3School
+
+// The getElementById() method returns the element that has the ID attribute with the specified value.
+
+// This method is one of the most common methods in the HTML DOM, and is used almost every time you want to manipulate, or get info from, an element on your document.
+
+// Returns null if no elements with the specified ID exists.
+
+// An ID should be unique within a page. However, if more than one element with the specified ID exists, the getElementById() method returns the first element in the source code.
+
+// https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 
 
 
 
 
 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   getElementsByTagName &className -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+// According to MDN 
+// The getElementsByClassName method of Document interface returns an array-like object of all child elements which have all of the given class name(s). When called on the document object, the complete document is searched, including the root node. You may also call getElementsByClassName() on any element; it will return only elements which are descendants of the specified root element with the given class name(s).
+// Syntax
+// var elements = document.getElementsByClassName(names); // or:
+// var elements = rootElement.getElementsByClassName(names);
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName
+
+
+
+// The Element.getElementsByTagName() method returns a live HTMLCollection of elements with the given tag name. All descendants of the specified element are searched, but not the element itself. The returned list is live, which means it updates itself with the DOM tree automatically. Therefore, there is no need to call Element.getElementsByTagName() with the same element and arguments repeatedly if the DOM changes in between calls.
+
+// When called on an HTML element in an HTML document, getElementsByTagName lower-cases the argument before searching for it. This is undesirable when trying to match camel-cased SVG elements (such as <linearGradient>) in an HTML document. Instead, use Element.getElementsByTagNameNS(), which preserves the capitalization of the tag name.
+
+// Element.getElementsByTagName is similar to Document.getElementsByTagName(), except that it only searches for elements that are descendants of the specified element.
+
+// Syntax
+// elements = element.getElementsByTagName(tagName)
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   querySelector & querySelectorAll ---------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+// The Document method querySelectorAll() returns a static (not live) NodeList representing a list of the document's elements that match the specified group of selectors.
+
+// Note: This method is implemented based on the ParentNode mixin's querySelectorAll() method.
+
+// Syntax
+// elementList = parentNode.querySelectorAll(selectors);
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+
+// The Element method querySelectorAll() returns a static (not live) NodeList representing a list of elements matching the specified group of selectors which are descendants of the element on which the method was called.
+
+// Note: This method is implemented based on the ParentNode mixin's querySelectorAll() method.
+
+// Syntax
+// elementList = parentNode.querySelectorAll(selectors);
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll
+
+
+// According to w3School
+
+// The querySelectorAll() method returns all elements in the document that matches a specified CSS selector(s), as a static NodeList object.
+
+// The NodeList object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0.
+// https://www.w3schools.com/jsref/met_document_queryselectorall.asp
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  innerHTML, textContent, & innerText------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+The textContent property of the Node interface represents the text content of the node and its descendants.
+
+Note: textContent and HTMLElement.innerText are easily confused, but the two properties are different in important ways.
+
+Syntax
+let text = someNode.textContent
+someOtherNode.textContent = string
+
+https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    javascript attributes     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+The Element.attributes property returns a live collection of all attribute nodes registered to the specified node. It is a NamedNodeMap, not an Array, so it has no Array methods and the Attr nodes' indexes may differ among browsers. To be more specific, attributes is a key/value pair of strings that represents any information regarding that attribute.
+
+Syntax
+var attr = element.attributes;
+https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Changing Styles     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+The style read-only property returns the inline style of an element in the form of a CSSStyleDeclaration object that contains a list of all styles properties for that element with values assigned for the attributes that are defined in the element's inline style attribute.
+
+See the CSS Properties Reference for a list of the CSS properties accessible via style. The style property has the same (and highest) priority in the CSS cascade as an inline style declaration set via the style attribute.
+
+Syntax
+style = CSSStyleDeclaration.style
+
+https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   mdn classlist javascript     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+The Element.classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element. This can then be used to manipulate the class list.
+
+Using classList is a convenient alternative to accessing an element's list of classes as a space-delimited string via element.className.
+
+Syntax
+const elementClasses = elementNodeReference.classList;
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Traversing Parent/Child/Sibling-----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+Node.nextSibling
+The Node.nextSibling read-only property returns the node immediately following the specified one in their parent's childNodes, or returns null if the specified node is the last child in the parent element.
+
+Syntax
+nextNode = node.nextSibling
+https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling
+
+ParentNode.children
+The ParentNode property children is a read-only property that returns a live HTMLCollection which contains all of the child elements of the node upon which it was called.
+
+Syntax
+let children = node.children;
+
+https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Append & AppendChild     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+ParentNode.append()
+The ParentNode.append() method inserts a set of Node objects or DOMString objects after the last child of the ParentNode. DOMString objects are inserted as equivalent Text nodes.
+
+Differences from Node.appendChild():
+
+ParentNode.append() allows you to also append DOMString objects, whereas Node.appendChild() only accepts Node objects.
+ParentNode.append() has no return value, whereas Node.appendChild() returns the appended Node object.
+ParentNode.append() can append several nodes and strings, whereas Node.appendChild() can only append one node.
+Syntax
+// [Throws, Unscopable]
+ParentNode.append(...nodesOrDOMStrings) // returns undefined
+
+https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append
+
+Node.appendChild()
+The Node.appendChild() method adds a node to the end of the list of children of a specified parent node. If the given child is a reference to an existing node in the document, appendChild() moves it from its current position to the new position (there is no requirement to remove the node from its parent node before appending it to some other node).
+
+This means that a node can't be in two points of the document simultaneously. So if the node already has a parent, the node is first removed, then appended at the new position. The Node.cloneNode() method can be used to make a copy of the node before appending it under the new parent. Note that the copies made with cloneNode will not be automatically kept in sync.
+
+If the given child is a DocumentFragment, the entire contents of the DocumentFragment are moved into the child list of the specified parent node.
+
+Newer API available!
+The ParentNode.append() method supports multiple arguments and appending strings.
+
+Syntax
+element.appendChild(aChild)
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   removeChild & remove     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+Node.removeChild()
+The Node.removeChild() method removes a child node from the DOM and returns the removed node.
+
+Syntax
+var oldChild = node.removeChild(child);
+Or just:
+
+node.removeChild(child);
+child is the child node to be removed from the DOM.
+node is the parent node of child.
+oldChild holds a reference to the removed child node, i.e., oldChild === child.
+https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Pokemon Sprites Demo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+Implementing image sprites in CSS
+Image sprites are used in numerous web apps where multiple images are used. Rather than include each image as a separate image file, it is much more memory- and bandwidth-friendly to send them as a single image; using background position as a way to distinguish between individual images in the same image file, so the number of HTTP requests is reduced.
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS
+
+// According to w3School
 
 
 
@@ -644,7 +910,6 @@
 // According to w3School
 
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 24-------------->>>>>>>>>>>>>>>>>>>>>>
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 25-------------->>>>>>>>>>>>>>>>>>>>>>
 
