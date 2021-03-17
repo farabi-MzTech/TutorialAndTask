@@ -1189,13 +1189,80 @@ https://javascript.info/async-await
 
 
 
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 28-------------->>>>>>>>>>>>>>>>>>>>>>
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  AJAX ----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+Ajax
+Getting Started
+Asynchronous JavaScript and XML, while not a technology in itself, is a term coined in 2005 by Jesse James Garrett, that describes a "new" approach to using a number of existing technologies together, including HTML or XHTML, CSS, JavaScript, DOM, XML, XSLT, and most importantly the XMLHttpRequest object.
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
 
 
 
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   API----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+Introduction to web APIs
+Overview: Client-side web APIs
+Next
+First up, we'll start by looking at APIs from a high level — what are they, how do they work, how to use them in your code, and how are they structured? We'll also take a look at what the different main classes of APIs are, and what kind of uses they have.
+
+Prerequisites:	Basic computer literacy, a basic understanding of HTML and CSS, JavaScript basics (see first steps, building blocks, JavaScript objects).
+Objective:	To gain familiarity with APIs, what they can do, and how you can use them in your code.
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   JSON----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+JSON
+The JSON object contains methods for parsing JavaScript Object Notation (JSON) and converting values to JSON. It can't be called or constructed, and aside from its two method properties, it has no interesting functionality of its own.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+
+
+// According to w3School
 
 
 
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Handling Errors In Async Functions----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// https://www.postman.com/
+// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Sending_and_Receiving_Binary_Data
+// https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Query Strings & Headers------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Query Strings & Headers------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
 
@@ -1216,7 +1283,6 @@ https://javascript.info/async-await
 
 
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 28-------------->>>>>>>>>>>>>>>>>>>>>>
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 29-------------->>>>>>>>>>>>>>>>>>>>>>
 
