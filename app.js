@@ -551,6 +551,83 @@
 
 
 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Spread in Function Calls     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// Spread syntax (...) allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+// According to w3School
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Spread with Array Literals     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// Spread syntax allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Rest Parameters     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+
+// Rest parameter is an improved way to handle function parameter, allowing us to more easily handle various input as parameters in a function. The rest parameter syntax allows us to represent an indefinite number of arguments as an array. With the help of a rest parameter a function can be called with any number of arguments, no matter how it was defined. Rest parameter is added in ES2015 or ES6 which improved the ability to handle parameter.
+
+// Note: In order to run the code in this article make use of the console provided by the browser or use an online tool like repl.it.
+
+// Syntax:
+
+// function functionname[...parameters]//... is the rest parameter
+// {
+// statement;
+// }
+
+// https://www.geeksforgeeks.org/javascript-rest-operator/
+
+
+
+// According to w3School
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Destructuring Arrays     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Destructuring Object     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Destructuring Parameters -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// According to MDN 
+// The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+// https://www.freecodecamp.org/news/array-destructuring-in-es6-30e398f21d10/
+
+// According to w3School
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -582,3 +659,9 @@
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 30-------------->>>>>>>>>>>>>>>>>>>>>>
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 31-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 32-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 33-------------->>>>>>>>>>>>>>>>>>>>>>
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 33-------------->>>>>>>>>>>>>>>>>>>>>>
