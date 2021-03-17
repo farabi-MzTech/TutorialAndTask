@@ -365,16 +365,97 @@
 
 
 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   ARROW FUNCTION     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// An arrow function expression is a compact alternative to a traditional function expression, but is limited and can't be used in all situations.
+
+// Differences & Limitations:
+
+// Does not have its own bindings to this or super, and should not be used as methods.
+// Does not have arguments, or new.target keywords.
+// Not suitable for call, apply and bind methods, which generally rely on establishing a scope.
+// Can not be used as constructors.
+// Can not use yield, within its body.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+
+// According to w3School
+// Arrow functions were introduced in ES6.
+
+// Arrow functions allow us to write shorter function syntax:
+
+// Before:
+// hello = function() {
+//   return "Hello World!";
+// }
+
+// With Arrow Function:
+// hello = () => {
+//   return "Hello World!";
+// }
+
+// https://www.w3schools.com/js/js_arrow_function.asp
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   IMPLICIT FUNCTION     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// UDEMY ALL THE FUNCTION DO THE SAME THING
+
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   arrow function wrap     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+// According to w3School
+
+// https://levelup.gitconnected.com/javascript-best-practices-arrow-functions-aefef2517f4
 
 
 
 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   setTimeout and setInterval  --------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+// According to MDN 
+// Prerequisites:	Basic computer literacy, a reasonable understanding of JavaScript fundamentals.
+// Objective:	To understand asynchronous loops and intervals and what they are useful for.
+// These functions are:
 
+// setTimeout()
+// Execute a specified block of code once after a specified time has elapsed.
+// setInterval()
+// Execute a specified block of code repeatedly with a fixed time delay between each call.
+// requestAnimationFrame()
+// The modern version of setInterval(). Executes a specified block of code before the browser next repaints the display, allowing an animation to be run at a suitable framerate regardless of the environment it is being run in.
 
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals
+// https://javascript.info/settimeout-setinterval
 
+// According to w3School
 
+// JavaScript can be executed in time-intervals.
 
+// This is called timing events.
+
+// https://www.w3schools.com/js/js_timing.asp
 
 
 
