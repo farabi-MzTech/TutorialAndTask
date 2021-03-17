@@ -1075,15 +1075,127 @@ https://developer.mozilla.org/en-US/docs/Web/API/Event
 // https://javascript.info/event-delegation
 // According to w3School
 
-//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 27-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Call stack     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
+Call stack
+A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function, etc.
+
+When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.
+Any functions that are called by that function are added to the call stack further up, and run where their calls are reached.
+When the current function is finished, the interpreter takes it off the stack and resumes execution where it left off in the last code listing.
+If the stack takes up more space than it had assigned to it, it results in a "stack overflow" error.
+
+https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   WebAPIs & Single Threaded     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+// Web APIs
+
+// When writing code for the Web, there are a large number of Web APIs available. Below is a list of all the APIs and interfaces (object types) that you may be able to use while developing your Web app or site.
+
+// Web APIs are typically used with JavaScript, although this doesn't always have to be the case.
+// https://developer.mozilla.org/en-US/docs/Web/API
+
+// Thread
+// Thread in computer science is the execution of running multiple tasks or programs at the same time. Each unit capable of executing code is called a thread.
+// https://developer.mozilla.org/en-US/docs/Glossary/Thread
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Callback Hell :(     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+Introducing asynchronous JavaScript
+Previous
+Overview: Asynchronous
+Next
+In this article we briefly recap the problems associated with synchronous JavaScript, and take a first look at some of the different asynchronous techniques you'll encounter, showing how they can help us solve such problems.
+
+Prerequisites:	Basic computer literacy, a reasonable understanding of JavaScript fundamentals.
+Objective:	To gain familiarity with what asynchronous JavaScript is, how it differs from synchronous JavaScript, and what use cases it has.
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Promises     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+Promise
+The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Async Keyword     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+async function
+An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+
+async function name([param[, param[, ...param]]]) {
+    statements
+ }
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 
 
 // According to w3School
 
 
-//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Await Keyword      -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+await
+The await operator is used to wait for a Promise. It can only be used inside an async function within regular JavaScript code; however it can be used on its own with JavaScript modules.
+
+Syntax
+[rv] = await expression;
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Handling Errors In Async Functions----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+https://itnext.io/error-handling-with-async-await-in-js-26c3f20bc06a
+Async/await
+There’s a special syntax to work with promises in a more comfortable fashion, called “async/await”. It’s surprisingly easy to understand and use.
+
+https://javascript.info/async-await
+
+// According to w3School
+
+
+
+
+
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Handling Errors In Async Functions----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
 
@@ -1102,7 +1214,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Event
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 26-------------->>>>>>>>>>>>>>>>>>>>>>
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 27-------------->>>>>>>>>>>>>>>>>>>>>>
+
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 28-------------->>>>>>>>>>>>>>>>>>>>>>
 
