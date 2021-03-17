@@ -506,21 +506,28 @@
 // The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
+
+
 // According to w3School
 // The reduce() method reduces the array to a single value.
-
 // The reduce() method executes a provided function for each value of the array (from left-to-right).
-
 // The return value of the function is stored in an accumulator (result/total).
-
 // Note: reduce() does not execute the function for array elements without values.
-
 // Note: This method does not change the original array.
 // https://www.w3schools.com/jsref/jsref_reduce.asp
 
 
 
 
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Arrow Functions & 'this'     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc
+// According to MDN 
+
+
+// According to w3School
 
 
 
