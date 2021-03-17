@@ -532,6 +532,21 @@
 
 
 
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 23-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Default Parameters     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// Default function parameters allow named parameters to be initialized with default values if no value or undefined is passed
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+
+
+// According to w3School
+// If a function in JavaScript is called with missing arguments (less than declared), the missing values are set to undefined.
+// https://www.w3schools.com/howto/howto_js_default_parameters.asp
 
 
 
@@ -551,7 +566,6 @@
 
 // According to w3School
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 23-------------->>>>>>>>>>>>>>>>>>>>>>
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 24-------------->>>>>>>>>>>>>>>>>>>>>>
 
