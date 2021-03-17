@@ -449,6 +449,7 @@
 // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals
 // https://javascript.info/settimeout-setinterval
 
+
 // According to w3School
 
 // JavaScript can be executed in time-intervals.
@@ -456,6 +457,83 @@
 // This is called timing events.
 
 // https://www.w3schools.com/js/js_timing.asp
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The filter Method     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+
+// According to w3School
+// The filter() method creates an array filled with all array elements that pass a test (provided as a function).
+
+// Note: filter() does not execute the function for array elements without values.
+
+// Note: filter() does not change the original array.
+// https://www.w3schools.com/jsref/jsref_filter.asp
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Some & Every Methods     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+// The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+
+// According to w3School
+// The every() method checks if all elements in an array pass a test (provided as a function).
+
+// The every() method executes the function once for each element present in the array:
+
+// If it finds an array element where the function returns a false value, every() returns false (and does not check the remaining values)
+// If no false occur, every() returns true
+// Note: every() does not execute the function for array elements without values.
+
+// Note: every() does not change the original array
+
+// https://www.w3schools.com/jsref/jsref_every.asp
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Reduce Method     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// According to MDN 
+// The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+
+// According to w3School
+// The reduce() method reduces the array to a single value.
+
+// The reduce() method executes a provided function for each value of the array (from left-to-right).
+
+// The return value of the function is stored in an accumulator (result/total).
+
+// Note: reduce() does not execute the function for array elements without values.
+
+// Note: This method does not change the original array.
+// https://www.w3schools.com/jsref/jsref_reduce.asp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
