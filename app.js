@@ -1352,6 +1352,542 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/supe
 
 
 
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 31-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Introducing Node JS     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+Node.js
+Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with JavaScript.
+
+Node Package Manager (npm)
+npm is bundled with Node.js. It runs on the command line as the command npm. It is a package manager that downloads packages into a node_modules folder. You call the downloaded packages through const libraryModule = require("libraryname").
+
+https://developer.mozilla.org/en-US/docs/Glossary/Node.js?utm_campaign=feed&utm_medium=rss&utm_source=developer.mozilla.org
+
+Express web framework (Node.js/JavaScript)
+Express is a popular unopinionated web framework, written in JavaScript and hosted within the Node.js runtime environment. This module explains some of the key benefits of the framework, how to set up your development environment and how to perform common web development and deployment tasks.
+
+Prerequisites
+Before starting this module you will need to understand what server-side web programming and web frameworks are, ideally by reading the topics in our Server-side website programming first steps module. A general knowledge of programming concepts and JavaScript is highly recommended, but not essential to understanding the core concepts.
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   What Is Node Used For?     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Installing Node     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Node REPL     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Running Node Files     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Process & Argv     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   File System Module Crash Course     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 32-------------->>>>>>>>>>>>>>>>>>>>>>
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Working With module.exports     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Requiring A Directory     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Introducing NPM     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Adding Global Packages     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 33-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Introducing Express     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Request & Response Objects     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Express Routing Basics     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Express Path Parameters     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Working With Query Strings     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Auto-Restart With Nodemon     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Section 34-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   What is Templating?     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Configuring Express For EJS     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Setting The Views Directory     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   EJS Interpolation Syntax     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Passing Data To Templates     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Subreddit Template Demo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Conditionals in EJS     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Loops In EJS     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   A More Complex Subreddit Demo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Serving Static Assets In Express     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Bootstrap + Express     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+// According to w3School
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   EJS & Partials     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 35-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Get Vs. Post Requests     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Defining Express Post Routes     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Parsing The Request Body     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Intro to REST     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   RESTful Comments Overview     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   RESTful Comments Index     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   RESTful Comments New     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Express Redirects     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   RESTful Comments Show     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The UUID Package     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    RESTful Comments Update     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Express Method Override     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   RESTful Comments Delete     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 36-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Introduction to Databases     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SQL Vs. NoSQL Databases     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Why We're Learning Mongo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    The Mongo Shell     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   What On Earth Is BSON?     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Inserting With Mongo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Finding With Mongo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Updating With Mongo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Deleting With Mongo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Additional Mongo Operators     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+
+
+
+// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 37-------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   What is Mongoose     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Connecting Mongoose to Mongo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Our First Mongoose Model     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Insert Many     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Finding With Mongoose     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Updating With Mongoose     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Deleting With Mongoose!     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Mongoose Schema Validations     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Additional Schema Constraints     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Validating Mongoose Updates     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Mongoose Validation Errors     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    Model Instance Methods     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Adding Model Static Methods     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Mongoose Virtuals     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Defining Mongoose Middleware     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
+
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
@@ -1360,6 +1896,31 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/supe
 // According to w3School
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+
+// According to w3School
 
 
 
@@ -1384,10 +1945,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/supe
 
 // <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 30-------------->>>>>>>>>>>>>>>>>>>>>>
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 31-------------->>>>>>>>>>>>>>>>>>>>>>
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 32-------------->>>>>>>>>>>>>>>>>>>>>>
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 33-------------->>>>>>>>>>>>>>>>>>>>>>
 
-// <<<<<<<<<<<<<<<<<<<<--------------Sect5ion 33-------------->>>>>>>>>>>>>>>>>>>>>>
+
