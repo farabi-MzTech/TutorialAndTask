@@ -749,15 +749,15 @@
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  innerHTML, textContent, & innerText------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-The textContent property of the Node interface represents the text content of the node and its descendants.
+// The textContent property of the Node interface represents the text content of the node and its descendants.
 
-Note: textContent and HTMLElement.innerText are easily confused, but the two properties are different in important ways.
+// Note: textContent and HTMLElement.innerText are easily confused, but the two properties are different in important ways.
 
-Syntax
-let text = someNode.textContent
-someOtherNode.textContent = string
+// Syntax
+// let text = someNode.textContent
+// someOtherNode.textContent = string
 
-https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
 
 // According to w3School
 
@@ -766,11 +766,11 @@ https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------    javascript attributes     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-The Element.attributes property returns a live collection of all attribute nodes registered to the specified node. It is a NamedNodeMap, not an Array, so it has no Array methods and the Attr nodes' indexes may differ among browsers. To be more specific, attributes is a key/value pair of strings that represents any information regarding that attribute.
+// The Element.attributes property returns a live collection of all attribute nodes registered to the specified node. It is a NamedNodeMap, not an Array, so it has no Array methods and the Attr nodes' indexes may differ among browsers. To be more specific, attributes is a key/value pair of strings that represents any information regarding that attribute.
 
-Syntax
-var attr = element.attributes;
-https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes
+// Syntax
+// var attr = element.attributes;
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes
 
 // According to w3School
 
@@ -778,14 +778,14 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Changing Styles     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-The style read-only property returns the inline style of an element in the form of a CSSStyleDeclaration object that contains a list of all styles properties for that element with values assigned for the attributes that are defined in the element's inline style attribute.
+// The style read-only property returns the inline style of an element in the form of a CSSStyleDeclaration object that contains a list of all styles properties for that element with values assigned for the attributes that are defined in the element's inline style attribute.
 
-See the CSS Properties Reference for a list of the CSS properties accessible via style. The style property has the same (and highest) priority in the CSS cascade as an inline style declaration set via the style attribute.
+// See the CSS Properties Reference for a list of the CSS properties accessible via style. The style property has the same (and highest) priority in the CSS cascade as an inline style declaration set via the style attribute.
 
-Syntax
-style = CSSStyleDeclaration.style
+// Syntax
+// style = CSSStyleDeclaration.style
 
-https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style
+// https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style
 
 // According to w3School
 
@@ -794,14 +794,14 @@ https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   mdn classlist javascript     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-The Element.classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element. This can then be used to manipulate the class list.
+// The Element.classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element. This can then be used to manipulate the class list.
 
-Using classList is a convenient alternative to accessing an element's list of classes as a space-delimited string via element.className.
+// Using classList is a convenient alternative to accessing an element's list of classes as a space-delimited string via element.className.
 
-Syntax
-const elementClasses = elementNodeReference.classList;
+// Syntax
+// const elementClasses = elementNodeReference.classList;
 
-https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 
 // According to w3School
 
@@ -809,20 +809,20 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Traversing Parent/Child/Sibling-----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-Node.nextSibling
-The Node.nextSibling read-only property returns the node immediately following the specified one in their parent's childNodes, or returns null if the specified node is the last child in the parent element.
+// Node.nextSibling
+// The Node.nextSibling read-only property returns the node immediately following the specified one in their parent's childNodes, or returns null if the specified node is the last child in the parent element.
 
-Syntax
-nextNode = node.nextSibling
-https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling
+// Syntax
+// nextNode = node.nextSibling
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling
 
-ParentNode.children
-The ParentNode property children is a read-only property that returns a live HTMLCollection which contains all of the child elements of the node upon which it was called.
+// ParentNode.children
+// The ParentNode property children is a read-only property that returns a live HTMLCollection which contains all of the child elements of the node upon which it was called.
 
-Syntax
-let children = node.children;
+// Syntax
+// let children = node.children;
 
-https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children
+// https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children
 
 // According to w3School
 
@@ -830,33 +830,33 @@ https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Append & AppendChild     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-ParentNode.append()
-The ParentNode.append() method inserts a set of Node objects or DOMString objects after the last child of the ParentNode. DOMString objects are inserted as equivalent Text nodes.
+// ParentNode.append()
+// The ParentNode.append() method inserts a set of Node objects or DOMString objects after the last child of the ParentNode. DOMString objects are inserted as equivalent Text nodes.
 
-Differences from Node.appendChild():
+// Differences from Node.appendChild():
 
-ParentNode.append() allows you to also append DOMString objects, whereas Node.appendChild() only accepts Node objects.
-ParentNode.append() has no return value, whereas Node.appendChild() returns the appended Node object.
-ParentNode.append() can append several nodes and strings, whereas Node.appendChild() can only append one node.
-Syntax
-// [Throws, Unscopable]
-ParentNode.append(...nodesOrDOMStrings) // returns undefined
+// ParentNode.append() allows you to also append DOMString objects, whereas Node.appendChild() only accepts Node objects.
+// ParentNode.append() has no return value, whereas Node.appendChild() returns the appended Node object.
+// ParentNode.append() can append several nodes and strings, whereas Node.appendChild() can only append one node.
+// Syntax
+// // [Throws, Unscopable]
+// ParentNode.append(...nodesOrDOMStrings) // returns undefined
 
-https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append
+// https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append
 
-Node.appendChild()
-The Node.appendChild() method adds a node to the end of the list of children of a specified parent node. If the given child is a reference to an existing node in the document, appendChild() moves it from its current position to the new position (there is no requirement to remove the node from its parent node before appending it to some other node).
+// Node.appendChild()
+// The Node.appendChild() method adds a node to the end of the list of children of a specified parent node. If the given child is a reference to an existing node in the document, appendChild() moves it from its current position to the new position (there is no requirement to remove the node from its parent node before appending it to some other node).
 
-This means that a node can't be in two points of the document simultaneously. So if the node already has a parent, the node is first removed, then appended at the new position. The Node.cloneNode() method can be used to make a copy of the node before appending it under the new parent. Note that the copies made with cloneNode will not be automatically kept in sync.
+// This means that a node can't be in two points of the document simultaneously. So if the node already has a parent, the node is first removed, then appended at the new position. The Node.cloneNode() method can be used to make a copy of the node before appending it under the new parent. Note that the copies made with cloneNode will not be automatically kept in sync.
 
-If the given child is a DocumentFragment, the entire contents of the DocumentFragment are moved into the child list of the specified parent node.
+// If the given child is a DocumentFragment, the entire contents of the DocumentFragment are moved into the child list of the specified parent node.
 
-Newer API available!
-The ParentNode.append() method supports multiple arguments and appending strings.
+// Newer API available!
+// The ParentNode.append() method supports multiple arguments and appending strings.
 
-Syntax
-element.appendChild(aChild)
-https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+// Syntax
+// element.appendChild(aChild)
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 
 // According to w3School
@@ -866,18 +866,18 @@ https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // According to MDN 
 
-Node.removeChild()
-The Node.removeChild() method removes a child node from the DOM and returns the removed node.
+// Node.removeChild()
+// The Node.removeChild() method removes a child node from the DOM and returns the removed node.
 
-Syntax
-var oldChild = node.removeChild(child);
-Or just:
+// Syntax
+// var oldChild = node.removeChild(child);
+// Or just:
 
-node.removeChild(child);
-child is the child node to be removed from the DOM.
-node is the parent node of child.
-oldChild holds a reference to the removed child node, i.e., oldChild === child.
-https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
+// node.removeChild(child);
+// child is the child node to be removed from the DOM.
+// node is the parent node of child.
+// oldChild holds a reference to the removed child node, i.e., oldChild === child.
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
 
 // According to w3School
 
@@ -886,10 +886,10 @@ https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Pokemon Sprites Demo     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-Implementing image sprites in CSS
-Image sprites are used in numerous web apps where multiple images are used. Rather than include each image as a separate image file, it is much more memory- and bandwidth-friendly to send them as a single image; using background position as a way to distinguish between individual images in the same image file, so the number of HTTP requests is reduced.
+// Implementing image sprites in CSS
+// Image sprites are used in numerous web apps where multiple images are used. Rather than include each image as a separate image file, it is much more memory- and bandwidth-friendly to send them as a single image; using background position as a way to distinguish between individual images in the same image file, so the number of HTTP requests is reduced.
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS
+// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS
 
 // According to w3School
 
@@ -905,12 +905,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_s
 
 
 // According to MDN 
-Events are actions or occurrences that happen in the system you are programming, which the system tells you about so you can respond to them in some way if desired. For example, if the user selects a button on a webpage, you might want to respond to that action by displaying an information box. In this article, we discuss some important concepts surrounding events, and look at how they work in browsers. This won't be an exhaustive study; just what you need to know at this stage.
+// Events are actions or occurrences that happen in the system you are programming, which the system tells you about so you can respond to them in some way if desired. For example, if the user selects a button on a webpage, you might want to respond to that action by displaying an information box. In this article, we discuss some important concepts surrounding events, and look at how they work in browsers. This won't be an exhaustive study; just what you need to know at this stage.
 
-Prerequisites:	Basic computer literacy, a basic understanding of HTML and CSS, JavaScript first steps.
-Objective:	To understand the fundamental theory of events, how they work in browsers, and how events may differ in different programming environments.
+// Prerequisites:	Basic computer literacy, a basic understanding of HTML and CSS, JavaScript first steps.
+// Objective:	To understand the fundamental theory of events, how they work in browsers, and how events may differ in different programming environments.
 
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Event
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Event
 
 // According to w3School
 
@@ -919,16 +919,16 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Event
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Onclick Property     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-GlobalEventHandlers.onclick
-The onclick property of the GlobalEventHandlers mixin is the EventHandler for processing click events on a given element.
+// GlobalEventHandlers.onclick
+// The onclick property of the GlobalEventHandlers mixin is the EventHandler for processing click events on a given element.
 
-The click event is raised when the user clicks on an element. It fires after the mousedown and mouseup events, in that order.
+// The click event is raised when the user clicks on an element. It fires after the mousedown and mouseup events, in that order.
 
-Note: When using the click event to trigger an action, also consider adding this same action to the keydown event, to allow the use of that same action by people who don't use a mouse or a touch screen.
-Syntax
-target.onclick = functionRef;
+// Note: When using the click event to trigger an action, also consider adding this same action to the keydown event, to allow the use of that same action by people who don't use a mouse or a touch screen.
+// Syntax
+// target.onclick = functionRef;
 
-https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
+// https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
 
 // According to w3School
 
@@ -937,21 +937,21 @@ https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   addEventListener     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-EventTarget.addEventListener()
-The EventTarget method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target. Common targets are Element, Document, and Window, but the target may be any object that supports events (such as XMLHttpRequest).
+// EventTarget.addEventListener()
+// The EventTarget method addEventListener() sets up a function that will be called whenever the specified event is delivered to the target. Common targets are Element, Document, and Window, but the target may be any object that supports events (such as XMLHttpRequest).
 
-addEventListener() works by adding a function or an object that implements EventListener to the list of event listeners for the specified event type on the EventTarget on which it's called.
+// addEventListener() works by adding a function or an object that implements EventListener to the list of event listeners for the specified event type on the EventTarget on which it's called.
 
-Syntax
-target.addEventListener(type, listener [, options]);
-target.addEventListener(type, listener [, useCapture]);
-target.addEventListener(type, listener [, useCapture, wantsUntrusted 
-    This API has not been standardized.
+// Syntax
+// target.addEventListener(type, listener [, options]);
+// target.addEventListener(type, listener [, useCapture]);
+// target.addEventListener(type, listener [, useCapture, wantsUntrusted 
+//     This API has not been standardized.
     
     
-]); // Gecko/Mozilla only
+// ]); // Gecko/Mozilla only
 
-https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+// https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
 
 
@@ -963,11 +963,11 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Events & The Keyword This     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-The Event interface represents an event which takes place in the DOM.
+// The Event interface represents an event which takes place in the DOM.
 
-An event can be triggered by the user action e.g. clicking the mouse button or tapping keyboard, or generated by APIs to represent the progress of an asynchronous task. It can also be triggered programmatically, such as by calling the HTMLElement.click() method of an element, or by defining the event, then sending it to a specified target using EventTarget.dispatchEvent().
+// An event can be triggered by the user action e.g. clicking the mouse button or tapping keyboard, or generated by APIs to represent the progress of an asynchronous task. It can also be triggered programmatically, such as by calling the HTMLElement.click() method of an element, or by defining the event, then sending it to a specified target using EventTarget.dispatchEvent().
 
-https://developer.mozilla.org/en-US/docs/Web/API/Event
+// https://developer.mozilla.org/en-US/docs/Web/API/Event
 
 // According to w3School
 
@@ -1083,15 +1083,15 @@ https://developer.mozilla.org/en-US/docs/Web/API/Event
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Call stack     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-Call stack
-A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function, etc.
+// Call stack
+// A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function, etc.
 
-When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.
-Any functions that are called by that function are added to the call stack further up, and run where their calls are reached.
-When the current function is finished, the interpreter takes it off the stack and resumes execution where it left off in the last code listing.
-If the stack takes up more space than it had assigned to it, it results in a "stack overflow" error.
+// When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.
+// Any functions that are called by that function are added to the call stack further up, and run where their calls are reached.
+// When the current function is finished, the interpreter takes it off the stack and resumes execution where it left off in the last code listing.
+// If the stack takes up more space than it had assigned to it, it results in a "stack overflow" error.
 
-https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
+// https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
 
 // According to w3School
 
@@ -1119,15 +1119,15 @@ https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
 
 // According to MDN 
 
-Introducing asynchronous JavaScript
-Previous
-Overview: Asynchronous
-Next
-In this article we briefly recap the problems associated with synchronous JavaScript, and take a first look at some of the different asynchronous techniques you'll encounter, showing how they can help us solve such problems.
+// Introducing asynchronous JavaScript
+// Previous
+// Overview: Asynchronous
+// Next
+// In this article we briefly recap the problems associated with synchronous JavaScript, and take a first look at some of the different asynchronous techniques you'll encounter, showing how they can help us solve such problems.
 
-Prerequisites:	Basic computer literacy, a reasonable understanding of JavaScript fundamentals.
-Objective:	To gain familiarity with what asynchronous JavaScript is, how it differs from synchronous JavaScript, and what use cases it has.
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
+// Prerequisites:	Basic computer literacy, a reasonable understanding of JavaScript fundamentals.
+// Objective:	To gain familiarity with what asynchronous JavaScript is, how it differs from synchronous JavaScript, and what use cases it has.
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
 
 // According to w3School
 
@@ -1136,9 +1136,9 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introduci
 
 // According to MDN 
 
-Promise
-The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+// Promise
+// The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
 // According to w3School
 
@@ -1147,13 +1147,13 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   The Async Keyword     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
-async function
-An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+// async function
+// An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
 
-async function name([param[, param[, ...param]]]) {
-    statements
- }
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+// async function name([param[, param[, ...param]]]) {
+//     statements
+//  }
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 
 
 // According to w3School
@@ -1165,25 +1165,25 @@ async function name([param[, param[, ...param]]]) {
 
 // According to MDN 
 
-await
-The await operator is used to wait for a Promise. It can only be used inside an async function within regular JavaScript code; however it can be used on its own with JavaScript modules.
+// await
+// The await operator is used to wait for a Promise. It can only be used inside an async function within regular JavaScript code; however it can be used on its own with JavaScript modules.
 
-Syntax
-[rv] = await expression;
+// Syntax
+// [rv] = await expression;
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
 
 // According to w3School
 
 
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Handling Errors In Async Functions----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-// According to MDN 
-https://itnext.io/error-handling-with-async-await-in-js-26c3f20bc06a
-Async/await
-There’s a special syntax to work with promises in a more comfortable fashion, called “async/await”. It’s surprisingly easy to understand and use.
+// // According to MDN 
+// https://itnext.io/error-handling-with-async-await-in-js-26c3f20bc06a
+// Async/await
+// There’s a special syntax to work with promises in a more comfortable fashion, called “async/await”. It’s surprisingly easy to understand and use.
 
-https://javascript.info/async-await
+// https://javascript.info/async-await
 
 // According to w3School
 
@@ -1195,11 +1195,11 @@ https://javascript.info/async-await
 
 // According to MDN 
 
-Ajax
-Getting Started
-Asynchronous JavaScript and XML, while not a technology in itself, is a term coined in 2005 by Jesse James Garrett, that describes a "new" approach to using a number of existing technologies together, including HTML or XHTML, CSS, JavaScript, DOM, XML, XSLT, and most importantly the XMLHttpRequest object.
+// Ajax
+// Getting Started
+// Asynchronous JavaScript and XML, while not a technology in itself, is a term coined in 2005 by Jesse James Garrett, that describes a "new" approach to using a number of existing technologies together, including HTML or XHTML, CSS, JavaScript, DOM, XML, XSLT, and most importantly the XMLHttpRequest object.
 
-https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
+// https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
 
 
 
@@ -1209,15 +1209,15 @@ https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
 
 // According to MDN 
 
-Introduction to web APIs
-Overview: Client-side web APIs
-Next
-First up, we'll start by looking at APIs from a high level — what are they, how do they work, how to use them in your code, and how are they structured? We'll also take a look at what the different main classes of APIs are, and what kind of uses they have.
+// Introduction to web APIs
+// Overview: Client-side web APIs
+// Next
+// First up, we'll start by looking at APIs from a high level — what are they, how do they work, how to use them in your code, and how are they structured? We'll also take a look at what the different main classes of APIs are, and what kind of uses they have.
 
-Prerequisites:	Basic computer literacy, a basic understanding of HTML and CSS, JavaScript basics (see first steps, building blocks, JavaScript objects).
-Objective:	To gain familiarity with APIs, what they can do, and how you can use them in your code.
+// Prerequisites:	Basic computer literacy, a basic understanding of HTML and CSS, JavaScript basics (see first steps, building blocks, JavaScript objects).
+// Objective:	To gain familiarity with APIs, what they can do, and how you can use them in your code.
 
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
 
 // According to w3School
 
@@ -1227,10 +1227,10 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/I
 
 // According to MDN 
 
-JSON
-The JSON object contains methods for parsing JavaScript Object Notation (JSON) and converting values to JSON. It can't be called or constructed, and aside from its two method properties, it has no interesting functionality of its own.
+// JSON
+// The JSON object contains methods for parsing JavaScript Object Notation (JSON) and converting values to JSON. It can't be called or constructed, and aside from its two method properties, it has no interesting functionality of its own.
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
 
 
 // According to w3School
@@ -1251,7 +1251,108 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 // According to w3School
 
 
-//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Query Strings & Headers------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Making XHR's------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+// XMLHttpRequest
+// XMLHttpRequest (XHR) objects are used to interact with servers. You can retrieve data from a URL without having to do a full page refresh. This enables a Web page to update just part of a page without disrupting what the user is doing. XMLHttpRequest is used heavily in AJAX programming.
+
+// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Fetch API------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+
+// Fetch API
+// The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set.
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+// According to w3School
+// The Fetch API interface allows web browser to make HTTP requests to web servers.
+// https://www.w3schools.com/js/js_api_fetch.asp
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Intro to Axios------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+https://medium.com/@MinimalGhost/what-is-axios-js-and-why-should-i-care-7eb72b111dc0
+// According to MDN 
+
+
+// According to w3School
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Factory Functions ------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+Function
+Every JavaScript function is actually a Function object. This can be seen with the code (function(){}).constructor === Function, which returns true.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+
+// According to w3School
+
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Constructor Functions ------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+constructor
+The constructor method is a special method of a class for creating and initializing an object of that class.
+
+Syntax
+constructor([arguments]) { ... }
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   JavaScript Classes     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+Classes
+Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics.
+
+Defining classes
+Classes are in fact "special functions", and just as you can define function expressions and function declarations, the class syntax has two components: class expressions and class declarations.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   Extends and Super Keywords     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// According to MDN 
+extends
+The extends keyword is used in class declarations or class expressions to create a class that is a child of another class.
+Syntax
+class ChildClass extends ParentClass { ... }
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends
+
+super
+The super keyword is used to access and call functions on an object's parent.
+
+The super.prop and super[expr] expressions are valid in any method definition in both classes and object literals.
+
+Syntax
+super([arguments]); // calls the parent constructor.
+super.functionOnParent([arguments]);
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
+
+// According to w3School
+
+
+
+//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
 
@@ -1262,12 +1363,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 
 
-//  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------  Query Strings & Headers------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-// According to MDN 
-
-
-// According to w3School
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--------   SCOPE     -----------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // According to MDN 
